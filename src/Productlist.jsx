@@ -11,7 +11,7 @@ const Productlist = () => {
                 </div>
                 {/* Desserts */}
                 <div className="order-2 md:order-2 md:col-span-3 lg:order-1 lg:col-span-2">
-                    <h2 className="text-[40px] font-bold mb-4 text-center">Desserts</h2>
+                    <h2 className="text-[40px] font-bold mb-4 text-left lg:text-center">Desserts</h2>
                     <div className="order-2 lg:order-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Waffle cart1 */}
                         <div className="relative">
