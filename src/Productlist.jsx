@@ -1,15 +1,14 @@
 const Productlist = () => {
     return(
-        <div className="m-auto min-h-screen grid justify-center items-center bg-[#fcf8f5] ">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 m-5 font-redhat">
+        <div className="grid justify-center items-center min-h-screen bg-[#fcf8f5]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-5 font-redhat max-w-screen-xl ">
                 {/* Your cart */}
-                <div className="order-1 md:order-2  lg:col-span-1  row-span-1 lg:row-span-1  bg-white p-4 rounded-md shadow-md max-h-[300px]">
+                <div className="order-1 md:order-2 lg:col-span-1 bg-white p-4 rounded-md shadow-md max-h-[300px]">
                     {/* cart list */}
-                    <h2 className="text-xl text-[#c83b0e] text-[24px] font-semibold mb-4 ">Your Cart (0)</h2>
-                    <img src="/assets/your cart.svg" alt="" className="ml-20 md:ml-10 lg:ml-20 2xl:ml-[250px]"/> 
-                    <div className="text-[#795548] text-[14px] ml-10 md:ml-5 lg:ml-10 2xl:ml-[200px]">Your added items will appear here</div>   
+                    <h2 className="text-xl text-[#c83b0e] text-[24px] font-semibold mb-4">Your Cart (0)</h2>
+                    <img src="/assets/your cart.svg" alt="" className="ml-20 md:ml-10 lg:ml-[130px] 2xl:ml-[100px]" />
+                    <div className="text-[#795548] text-[14px] ml-10 md:ml-5 lg:ml-[100px] 2xl:ml-[80px] mt-10">Your added items will appear here</div>
                 </div>
-
                 {/* Desserts */}
                 <div className="order-2 md:order-2 md:col-span-3 lg:order-1 lg:col-span-2">
                     <h2 className="text-[40px] font-bold mb-4 text-center">Desserts</h2>
