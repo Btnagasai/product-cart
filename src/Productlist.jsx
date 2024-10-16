@@ -48,7 +48,7 @@ const Productlist = () => {
                    {/* Marcaron */}
                    <div className="relative  ">
                         <img src="/assets/macaron cart3.jpg" alt="Macaron" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse  scale-x-75 ">50% <br/> off</div>
+                        <div className="absolute top-0 right-0 bg-red-500 p-3 w-2 h-2  animate-bounce opacity-75  scale-x-50 "></div>
                         <span className="flex flex-row items-center justify-center gap-2 "> 
                         <button class="  animate-bounce  duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]"/>Add to Cart
