@@ -16,7 +16,10 @@ const Productlist = () => {
                         {/* Waffle cart1 */}
                         <div className="relative">
                             <img src="/assets/waffle cart1.jpg" alt="Waffle" className="rounded-2xl" />
-                                <div className="absolute top-0 right-0 bg-red-500 w-2 h-2 p-3  animate-spin rounded   "></div>
+                                <div className="absolute top-0 right-0 bg-red-500 w-8 h-8 p-3  animate-bounce rounded   ">
+                                    <img src="src/assets/notification.png" alt="bell" className="absolute top-2 right-2 w-4 h-4 rotate-45 animate-spin"/>
+
+                                </div>
                             <span className="flex flex-row items-center justify-center gap-2   ">
                                 <button className="flex flex-row items-center justify-center gap-2 hover:animate-bounce hover:duration-200 border text-black py-2 px-4 rounded-full absolute border-black bg-white">
                                     <img src="/assets/product.svg" alt=""  className="text-[14px]"/> Add to Cart
@@ -48,7 +51,7 @@ const Productlist = () => {
                    {/* Marcaron */}
                    <div className="relative  ">
                         <img src="/assets/macaron cart3.jpg" alt="Macaron" className="rounded-2xl" />
-                       
+                        <div className="absolute top-0 right-0 bg-red-500 w-8 h-8 p-3  animate-spin rounded   "></div>
                         <span className="flex flex-row items-center justify-center gap-2 "> 
                         <button class="  animate-bounce  duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]"/>Add to Cart
