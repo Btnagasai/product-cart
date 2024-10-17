@@ -17,7 +17,7 @@ const Productlist = () => {
                         <div className="relative">
                             <img src="/assets/waffle cart1.jpg" alt="Waffle" className="rounded-2xl" />
                                 <div className="absolute top-0 right-0 bg-red-500 w-8 h-8 p-3  animate-bounce rounded   ">
-                                    <img src="src/assets/notification.png" alt="bell" className="absolute top-2 right-2 w-4 h-4 rotate-45 animate-spin"/>
+                                    <img src="/assets/notification.png" alt="bell" className="absolute top-2 right-2 w-4 h-4 rotate-45 animate-spin"/>
 
                                 </div>
                             <span className="flex flex-row items-center justify-center gap-2   ">
