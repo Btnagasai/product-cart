@@ -11,7 +11,7 @@ const Productlist = () => {
                 </div>
                 {/* Desserts */}
                 <div className="order-2 md:order-2 md:col-span-3 lg:order-1 lg:col-span-2">
-                    <h2 className="text-[40px] font-bold mb-4 text-left lg:text-center">Desserts</h2>
+                    <h2 className="text-[40px] font-bold mb-4 text-left ">Desserts</h2>
                     <div className="order-2 lg:order-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Waffle cart1 */}
                         <div className="relative">
@@ -35,7 +35,7 @@ const Productlist = () => {
                           {/* Creme Brulee */}
                    <div className="relative  ">
                         <img src="/assets/creme-brulee cart2.jpg" alt="Creme Brulee" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75   ">50% <br/> off</div>
+                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 animate-pulse scale-x-75   ">50% <br/> off</div>
                         <span className="flex flex-row items-center justify-center gap-2 "> 
                         <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]" />Add to Cart
@@ -53,7 +53,7 @@ const Productlist = () => {
                         <img src="/assets/macaron cart3.jpg" alt="Macaron" className="rounded-2xl" />
                         <div className="absolute top-0 right-0 bg-red-500 w-8 h-8 p-3  animate-spin rounded   "></div>
                         <span className="flex flex-row items-center justify-center gap-2 "> 
-                        <button class="  animate-bounce  duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                        <button class="   flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]"/>Add to Cart
                         </button>
                         </span>
@@ -67,9 +67,9 @@ const Productlist = () => {
                    {/* Tiramisu */}
                    <div className="relative  ">
                         <img src="/assets/tiramisu cart4.jpg" alt="Creme Brulee" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75   ">50% <br/> off</div>
+                      
                         <span className="flex flex-row items-center justify-center gap-2 ">
-                             <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                             <button class="  flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt=""  className="text-[14px]"/>Add to Cart
                         </button>
                         </span>
@@ -83,9 +83,9 @@ const Productlist = () => {
                    {/* Baklava */}
                    <div className="relative  ">
                         <img src="/assets/baklava cart5.jpg" alt="Pistachio Baklava" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75  ">50% <br/> off</div>
+                       
                         <span className="flex flex-row items-center justify-center gap-2 "> 
-                        <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                        <button class=" flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]" />Add to Cart
                         </button>
                         </span>
@@ -99,9 +99,9 @@ const Productlist = () => {
                    {/* Pie */}
                    <div className="relative  ">
                         <img src="/assets/meringue cart6.jpg" alt="Meringue" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75  ">50% <br/> off</div>
+                      
                         <span className="flex flex-row items-center justify-center gap-2 ">
-                             <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                             <button class="  flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]" />Add to Cart
                         </button>
                         </span>
@@ -115,9 +115,9 @@ const Productlist = () => {
                    {/* Red VelvetCake */}
                    <div className="relative  ">
                         <img src="/assets/cake cart7.jpg" alt="Red Velvet Cake" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75  ">50% <br/> off</div>
+                       
                         <span className="flex flex-row items-center justify-center gap-2 "> 
-                        <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                        <button class=" flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]"/>Add to Cart
                         </button>
                         </span>
@@ -131,9 +131,9 @@ const Productlist = () => {
                    {/* Brownie */}
                    <div className="relative  ">
                         <img src="/assets/brownie cart8.jpg" alt="Creme Brulee" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse scale-x-75  ">50% <br/> off</div>
+                       
                         <span className="flex flex-row items-center justify-center gap-2 ">
-                             <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                             <button class="  flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]" />Add to Cart
                         </button>
                         </span>
@@ -147,9 +147,9 @@ const Productlist = () => {
                    {/* Panna Cotta */}
                    <div className="relative  ">
                         <img src="/assets/brownie cart8.jpg" alt="Vanilla Panna Cotta" className="rounded-2xl" />
-                        <div className="absolute top-0 right-0 bg-red-500 text-white p-5 text-[14px]  rounded-b-full border-2 border-black animate-pulse  scale-x-75 ">50% <br/> off</div>
+                
                         <span className="flex flex-row items-center justify-center gap-2 ">
-                             <button class=" animate-bounce duration-200 flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
+                             <button class=" flex flex-row items-center justify-center gap-2 border text-black py-2 px-4 rounded-full absolute border-black bg-white ">
                             <img src="/assets/product.svg" alt="" className="text-[14px]"/>Add to Cart
                         </button>
                         </span>
